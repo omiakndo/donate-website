@@ -1,0 +1,259 @@
+* {
+    margin: 0px;
+    font-family: "Fredoka", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+/* hader style */
+
+.header {
+    max-width: 1100;
+    height: 500px;
+    text-align: center;
+    background-color: #757575;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 10px 20px;
+    background-size: cover;
+    background-image: url(../images/donation13.jpg)
+}
+
+.header-title {
+    margin-bottom: 10px;
+    font-weight: 800;
+    font-size: 35px;
+    color: aliceblue;
+
+}
+
+.header-sub-title {
+    margin-bottom: 20px;
+    font-weight: 800;
+    font-size: 30px;
+    color: rgb(216, 231, 245);
+}
+
+.header-dis {
+
+    color: #e8f1e8;
+    font-size: 18px;
+    margin-bottom: 30px;
+
+}
+
+.primary-button {
+    margin-top: 10px;
+    color: aliceblue;
+    padding: 18px 35px;
+    border: 0px;
+    font-weight: 700;
+    font-size: 20px;
+    height: 65px;
+    border-radius: 15px;
+    background-color: orangered;
+}
+
+/* main section */
+.donate-item {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.section-title {
+    margin-bottom: 10px;
+    font-weight: 800;
+    font-size: 35px;
+    color: rgb(1, 7, 12);
+}
+
+.section-dis {
+    color: #131613;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.amount {
+    text-align: center;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.amount-taka {
+    height: 100px;
+    width: 100px;
+    border: 2px solid red;
+    border-radius: 5px;
+    background-color: yellow;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.line {
+
+    border-bottom: 2px solid black;
+    margin-bottom: 5px;
+
+}
+
+.amount-line {
+    width: 70%;
+    display: inline;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.taka {
+    color: #131613;
+    font-size: 12px;
+    margin-top: 50px;
+}
+
+/* donate plan style */
+.donate-plan {
+    text-align: center;
+    margin-top: 150px;
+}
+
+.donate-all-plan {
+    display: flex;
+    gap: 24px;
+    padding: 10px;
+    border-radius: 10px;
+    max-width: 1140;
+    margin: 100px;
+    /* background-color: #e7d6d6; */
+}
+
+.donate-all-plan {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.plan-title {
+    color: #757575;
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 20px;
+
+}
+
+.plan-dis {
+    color: #757575;
+}
+
+.plan-item1 {
+    height: 250px;
+    width: 350px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: #e99c9c;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.plan-item2 {
+    height: 250px;
+    width: 350px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: #75757541;
+    border-radius: 10px;
+    padding: 10px;
+
+}
+
+.plan-item3 {
+    height: 250px;
+    width: 350px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: yellowgreen;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+/* important donate style */
+
+.important-donate {
+    display: flex;
+    /* max-width: 700; */
+    /* /* justify-content: space-between; */
+}
+
+.important-donate1 {
+    display: flex;
+}
+
+.important-dis {
+    margin-left: 200px;
+    padding: 10px;
+}
+
+.important-sub-dis {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.important-img {
+    margin-left: 150px;
+    margin-bottom: 50px;
+    padding: 20px;
+    /* height: 250px;
+   width: 350px; */
+
+}
+
+.important-donate2 {
+    display: flex;
+}
+
+/* update item */
+
+.update-item {
+    /* display: inline;
+    align-items: center;
+    justify-content: center; */
+    text-align: center;
+}
+
+.contact-all {
+    align-items: center;
+    background-color: antiquewhite;
+    padding: 50px;
+    height: 100;
+    width: 60%;
+    margin-left: 320px;
+}
+
+.contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+
+}
+
+.contact-button {
+
+    margin-top: 10px;
+    color: aliceblue;
+    padding: 18px 35px;
+    border: 0px;
+    font-weight: 100;
+    font-size: 12px;
+    height: 20px;
+    border-radius: 5px;
+    background-color: orangered;
+
+}
